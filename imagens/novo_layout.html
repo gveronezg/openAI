@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoriais da Asimov</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0E100D;
+            color: #fff;
+        }
+        .header {
+            background-color: #DDEDE8;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 8px;
+            margin: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #333;
+        }
+        .search-bar {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .search-input {
+            padding: 10px;
+            font-size: 1em;
+            width: 70%;
+            border: none;
+            border-radius: 4px;
+            margin-right: -4px;
+        }
+        .search-button {
+            padding: 11px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .filters {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        .filter {
+            background-color: #333;
+            padding: 10px;
+            margin: 0 10px;
+            border-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+        }
+        .card {
+            background-color: #1A1C1A;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            display: inline-block;
+            width: calc(33% - 40px);
+            vertical-align: top;
+            box-sizing: border-box;
+        }
+        .tags {
+            margin-bottom: 10px;
+        }
+        .tag {
+            background-color: #4CAF50;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            display: inline-block;
+            margin-right: 5px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Conheça os Tutoriais da Asimov</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Pesquisar..." class="search-input">
+            <button class="search-button">Pesquisar</button>
+        </div>
+    </div>
+    
+    <div class="filters">
+        <div class="filter">Todas Categorias</div>
+        <div class="filter">Todos os Níveis</div>
+    </div>
+
+    <main style="text-align: center;">
+        <div class="card">
+            <div class="tags">
+                <span class="tag">gráficos</span>
+                <span class="tag">legendas</span>
+                <span class="tag">matplotlib</span>
+            </div>
+            <h2>Como Estilizar a Legenda de Gráficos com Matplotlib</h2>
+            <small>Ana Maria Gomes • 21-03-24</small>
+        </div>
+        <div class="card">
+            <div class="tags">
+                <span class="tag">análise de dados</span>
+                <span class="tag">pandas</span>
+                <span class="tag">concatenação</span>
+            </div>
+            <h2>Concat no pandas: entendendo e usando o método pd.concat</h2>
+            <small>Juliano Faccioni • 21-03-24</small>
+        </div>
+        <div class="card">
+            <div class="tags">
+                <span class="tag">streamlit</span>
+                <span class="tag">webapp</span>
+            </div>
+            <h2>Guia Básico de Streamlit</h2>
+            <small>Adriano Soares • 21-03-24</small>
+        </div>
+        <!-- Mais cartões... -->
+    </main>
+</body>
+</html>
